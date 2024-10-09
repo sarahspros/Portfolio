@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 300vh;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #F4EDDF;
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column; 
+}
+
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 50%; 
+    transform: translateX(-50%);
+    max-width: 400px; 
+    height: auto;
+}
+
+
+#woman {
+    position: relative;
+    margin-top: 150px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#black-circle-one {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    border-radius: 50%;
+    top: 232px; 
+    left: 46.8%; 
+    z-index: 2; 
+    
+}
+
+#black-circle-two {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    border-radius: 50%;
+    top: 233px; 
+    left: 42.4%; 
+    z-index: 2; 
+   
+}
+
+#stretched-circle {
+
+    position:absolute;
+    margin-top: 100px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3; 
+
+}
